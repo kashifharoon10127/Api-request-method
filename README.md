@@ -8,7 +8,6 @@
 * When we want to see list of branches  we use get method
 * when we want to see discussion portion we use get method
 * when we want to see pull request we use get method
-<br>
 ALl things send request to server and get response of desired output
 
 2. Post 
