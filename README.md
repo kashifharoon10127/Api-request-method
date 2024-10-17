@@ -8,7 +8,9 @@
 * When we want to see list of branches  we use get method
 * when we want to see discussion portion we use get method
 * when we want to see pull request we use get method
-ALl things send request to server and get response of desired output
+* ALl things send request to server and get response of desired output
+* In Get request we can send metadata in header like authentication tokes which tell who you are .
+
 
 2. Post 
 * WHen we want to send data to server to create or match data .
@@ -16,6 +18,8 @@ ALl things send request to server and get response of desired output
 * When we want to create new repo we send data to server and put new repo data and server response we use post method
 * When we searach anything in github , searched data send to server and give me response data avalible or not , if avalible data show , we use post method
 * When we want to create new file in repo or upload a file in repo we use post method
+* In Post Send data in header as well as in body like username or password in body 
+
 3. Put 
 * When we want to change  or update full data on server we use put method
 * when we want to change profile data of github like name , image , bio etc we use put method . 
